@@ -10,7 +10,7 @@ const Footer = () => {
                 <p> copyright © {year}</p>
             </footer>
         </>
-    )
-}
+    );
+};
 
 export { Footer };
