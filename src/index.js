@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import { App } from "./App";
 import "./index.css";
+import { Main } from "./Usecontext/Main";
+import { Apps } from "./UseEffect/Apps";
 
 
 
@@ -18,7 +20,18 @@ const router = createBrowserRouter([
      <App />
     ),
   },
-  
+  {
+    path: "/hooks",
+    element: (
+     <Main />
+    ),
+  },
+  {
+    path: "/effect",
+    element: (
+     <Apps />
+    ),
+  },
  
 ]);
 
